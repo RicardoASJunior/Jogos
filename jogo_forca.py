@@ -51,7 +51,7 @@ def mensagem_de_abertura():
     print("********************************************************************************")
 
 def carrega_palavra_secreta():    
-    arquivo = open("c:Jogos/palavras.txt" , "r", encoding = 'UTF-8' )
+    arquivo = open("palavras.txt" , "r", encoding='UTF-8')
     palavras = []
 
     for linha in arquivo:
@@ -150,8 +150,6 @@ def mensagem_perdedor(palavra_secreta):
     print("   \_             _/       ")
     print("     \_         _/         ")
     print("       \_______/           ")  
-
-
-
+ 
 if (__name__ == "__main__"):
     jogar()
